@@ -1,0 +1,59 @@
+/* src/index.css */
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f8fc;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #d0e3f0;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #e3f2fd;
+}
+
+tr:nth-child(even) {
+  background-color: #f7fbff;
+}
+
+button {
+  margin: 4px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.attend {
+  background-color: #90caf9;
+  color: white;
+}
+
+button.absent {
+  background-color: #ef9a9a;
+  color: white;
+}
+
+button.makeup {
+  background-color: #ffe082;
+  color: #333;
+}
+
+input, select {
+  padding: 6px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
